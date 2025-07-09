@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Caprios Santo Contact Card</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  /* Custom scroll and shadow styling */
+  .card {
+    max-width: 425px;
+    margin: 20px auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 14px 25px rgb(0 0 0 / 0.08);
+    padding: 2rem;
+  }
+  .profile-img {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    background: white;
+  }
+  .link-card {
+    cursor: pointer;
+    transition: box-shadow 0.25s ease;
+    border-radius: 15px;
+    padding: 1rem 1.25rem;
+    background: white;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 0.03);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .link-card:hover {
+    box-shadow: 0 8px 24px rgb(0 0 0 / 0.12);
+  }
+  .icon-bg {
+    flex-shrink: 0;
+    background: white;
+    border-radius: 50%;
+    padding: 6px;
+    width: 40px;
+    height: 40px;
+  }
+  .icon-img {
+    width: 28px;
+    height: 28px;
+    display: block;
+  }
+  .arrow {
+    margin-left: auto;
+    font-size: 1.3rem;
+    color: #888;
+    user-select: none;
+  }
+  .section-divider {
+    border-top: 1px dotted #d4d4d4;
+    margin-top: 1rem;
+  }
+  .contact-info p {
+    margin: 0.2rem 0;
+  }
+</style>
+</head>
+<body class="bg-gray-50">
+
+<main class="card" role="main" aria-label="Caprios Santo Contact Card">
+
+  <header class="flex items-center gap-4 mb-4">
+    <img
+      src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/6bceb736-022f-4f25-a9a4-2f9d0dbe7742.png"
+      alt="Circular logo for Caprios Santo in teal and black stylized letters"
+      class="profile-img"
+      onerror="this.onerror=null;this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/bd61680f-0db0-47d7-9c37-0368334cec18.png';"
+    />
+    <h1 class="text-2xl font-semibold" tabindex="0">CAPRIOS SANTO</h1>
+  </header>
+
+  <section class="mb-6" aria-label="Welcome Message">
+    <h1> Welcome to <b>Caprios Santo</b></h1>
+    <p tabindex="0" class="text-gray-800 leading-relaxed">
+      We are the keepers of sacred elegance.<br>
+      Every piece we create carries the weight of emotion, silence, and soul.<br>
+      At Caprios Santo, we do not follow trends — we craft expressions: quiet yet powerful, timeless yet alive.<br><br>
+
+      <!-- This is a space for the seekers, the sensitives, the bold hearts who wear their truth like a second skin. -->
+      We’re honored you’re here. Let this be the beginning of something sacred.
+
+    </p>
+    <p class="font-semibold mt-3" tabindex="0">Caprios Santo</p>
+    <p><i>You don’t wear it. You become it.</i></p>
+  </section>
+
+<!-- Social Links -->
+ 
+
+  <section class="space-y-4" aria-label="Social and Contact Links">
+
+    <a href="https://www.instagram.com/capriossanto" target="_blank" rel="noopener noreferrer" class="link-card" aria-label="Visit Caprios Santo Instagram page">
+      <span class="icon-bg">
+        <img src="instagram_icon.png"/> <!-- alt="Instagram logo gradient pink orange" class="icon-img" onerror="this.onerror=null;this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/3dfe4e32-c785-4baf-994d-3f6f3e4f0f78.png';" /> -->
+      </span>
+      <div>
+        <p class="font-medium text-gray-900">Instagram</p>
+        <p class="text-sm text-gray-600">Step into our world on Instagram</p>
+      </div>
+      <span class="arrow" aria-hidden="true">➔</span>
+    </a>
+
+    <!-- Website links -->
+
+    <a href="https://capriossanto.com" target="_blank" rel="noopener noreferrer" class="link-card" aria-label="Visit Caprios Santo official website">
+      <span class="icon-bg">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/59229482-15a1-4f48-b857-0f9f969027fd.png" alt=" A logo in teal and white round icon" class="icon-img" onerror="this.onerror=null;" />
+      </span>
+      <div>
+        <p class="font-medium text-gray-900">Over Website</p>
+        <p class="text-sm text-gray-600">More styles. More vibes. Only on our website.</p>
+      </div>
+      <span class="arrow" aria-hidden="true">➔</span>
+    </a>
+
+<!-- Whatsapp Link -->
+
+    <a href="https://wa.me/919058099279" target="_blank" rel="noopener noreferrer" class="link-card" aria-label="Chat with Aura on WhatsApp">
+      <span class="icon-bg">
+        <img src="Logo_Whatsapp.png" alt="WhatsApp chat bubble logo in green and white" class="icon-img" onerror="this.onerror=null;" />
+      </span>
+      <div>
+        <p class="font-medium text-gray-900">WhatsApp</p>
+        <p class="text-sm text-gray-600">Let us assist you — with presence, purpose, and heart.</p>
+      </div>
+      <span class="arrow" aria-hidden="true">➔</span>
+    </a>
+
+  </section>
+
+<!-- Contact INFO -->
+
+  <section class="bg-white p-4 rounded-2xl mt-8 shadow-md" aria-label="Contact Us Section">
+    <div class="flex items-center gap-3 mb-3">
+      <span class="icon-bg">
+        <img src="contact_icon.png"  alt="Contact icon logo in black and white" class="icon-img" onerror="this.onerror=null;" />
+
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" role="img" > 
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2v-4a2 2 0 00-2-2H7a2 2 0 00-2 2v4a2 2 0 002 2z" />
+        </svg> -->
+
+      </span>
+      <h2 class="text-lg font-semibold text-gray-900" tabindex="0">Contact Us</h2>
+    </div>
+
+    <div class="contact-info">
+      <p><strong>Message US</strong></p>
+      <p tabindex="0" class="text-gray-800">+91 9058099279</p> 
+      <p class="mt-3"><strong>Email</strong></p>
+      <p tabindex="0" class="text-gray-800">contact@capriossanto.com</p>
+    </div>
+  </section>
+
+</main>
+
+</body>
+</html>
